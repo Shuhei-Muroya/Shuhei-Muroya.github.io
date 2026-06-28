@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>室屋 秀平 | Research Homepage</title>
+  <meta name="description" content="室屋 秀平の研究者ホームページ。統計学・グラフィカルラッソに関する研究。" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav-brand" href="#top">Shuhei Muroya</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-photo">
+        <!-- 顔写真を入れる場合は images/profile.jpg を置き換えてください -->
+        <img src="images/profile.jpg" alt="プロフィール写真" onerror="this.style.display='none'" />
+        <div class="hero-photo-placeholder">PHOTO</div>
+      </div>
+      <div class="hero-text">
+        <h1>室屋 秀平 <span class="hero-en">Shuhei Muroya</span></h1>
+        <p class="hero-affiliation">九州大学大学院 マス・フォア・イノベーション連係学府 / 博士後期課程2年</p>
+        <p class="hero-tagline">
+          統計学・スパース推定を専門に、glmnet のハイパーパラメータ最適化やグラフ構造推定に取り組んでいます。
+        </p>
+        <div class="hero-links">
+          <a href="#contact">✉ Email</a>
+          <a href="https://github.com/Shuhei-Muroya" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://orcid.org/0009-0009-0609-8890" target="_blank" rel="noopener">ORCID</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        九州大学大学院 マス・フォア・イノベーション連係学府の博士後期課程に在籍しています。
+        統計学・スパース推定を専門とし、予測子と応答の双方に欠測のある多変量回帰、
+        glmnet のハイパーパラメータをデータに応じて自動調整する手法、
+        さらにパーシステントホモロジーと graphical lasso を融合したグラフ構造推定に取り組んでいます。
+      </p>
+      <h3>Education</h3>
+      <ul class="plain-list">
+        <li><span class="year">2025.04–</span> 九州大学大学院 マス・フォア・イノベーション連係学府 博士後期課程（在学中）</li>
+        <li><span class="year">2023.04–2025.03</span> 九州大学大学院 マス・フォア・イノベーション連係学府 博士前期課程 修了</li>
+        <li><span class="year">2023.03</span> 九州大学 理学部 数学科 卒業</li>
+      </ul>
+
+      <h3>Skills</h3>
+      <ul class="plain-list">
+        <li>数理統計学、機械学習（スパース推定・ベイズ最適化・ニューラルネットワーク）に関する知識</li>
+        <li>R・Python を用いた統計手法／機械学習手法の実装</li>
+      </ul>
+    </section>
+
+    <!-- ===== Research ===== -->
+    <section id="research" class="section section-alt">
+      <h2>Research Interests</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>スパース回帰・欠測データ</h3>
+          <p>予測子・応答の双方に欠測のある多変量回帰のスパース推定。</p>
+        </div>
+        <div class="card">
+          <h3>glmnet のハイパーパラメータ最適化</h3>
+          <p>精度と計算効率を両立する設定値をデータから自動決定する手法。</p>
+        </div>
+        <div class="card">
+          <h3>パーシステントホモロジー × graphical lasso</h3>
+          <p>位相的データ解析と graphical lasso を融合したグラフ構造推定。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Publications ===== -->
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+
+      <h3>査読付き論文 (Refereed)</h3>
+      <ol class="pub-list">
+        <li>
+          <span class="authors">Shuhei Muroya, Shota Maeda, Kei Hirose.</span>
+          Sparse multivariate regression with missing values in both predictors and responses.
+          <em>Japanese Journal of Statistics and Data Science</em>, Vol. 9, pp. 5–27, 2026.
+          <span class="pub-links">
+            [<a href="https://doi.org/10.1007/s42081-025-00320-2" target="_blank" rel="noopener">DOI</a>]
+          </span>
+        </li>
+      </ol>
+
+      <h3>プレプリント / 査読中 (Preprints)</h3>
+      <ol class="pub-list">
+        <li>
+          <span class="authors">Shuhei Muroya, Kei Hirose.</span>
+          Data-driven configuration tuning of glmnet for balancing accuracy and computational efficiency.
+          <em>Computational Statistics</em> (Submitted/Under Review), 2026.
+          <span class="pub-links">
+            [<a href="https://arxiv.org/abs/2602.17922" target="_blank" rel="noopener">arXiv:2602.17922</a>]
+          </span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===== Talks ===== -->
+    <section id="talks" class="section section-alt">
+      <h2>Talks &amp; Presentations</h2>
+      <ul class="plain-list">
+        <li>
+          <span class="year">2026.02</span>
+          室屋 秀平, 廣瀬 慧. 精確な推定を実現する glmnet の設定値選択.
+          計算技術による学際的統計解析ワークショップ（統計数理研究所, 東京）. ポスター発表.
+        </li>
+        <li>
+          <span class="year">2025.12</span>
+          Shuhei Muroya, Kei Hirose. A Data-Driven Approach to Tuning the Glmnet Hyperparameters Beyond Defaults.
+          The 13th Conference of the IASC-ARS（University of Economics Ho Chi Minh City, ベトナム）. ポスター発表.
+        </li>
+        <li>
+          <span class="year">2025.10</span>
+          室屋 秀平, 廣瀬 慧. デフォルト値を見直す：データに合わせた glmnet のハイパーパラメータ自動設定.
+          異分野異業種 研究交流会 2025（武蔵野大学, 東京）. ポスター発表.
+        </li>
+        <li>
+          <span class="year">2025.09</span>
+          室屋 秀平, 廣瀬 慧. パーシステントホモロジーと graphical lasso の融合によるグラフの構造推定.
+          2025年度統計関連学会連合大会（関西大学, 大阪）. 口頭発表.
+        </li>
+        <li>
+          <span class="year">2025.09</span>
+          Shuhei Muroya, Kei Hirose. Learning appropriate setting values for "glmnet" package.
+          Forum of Mathematics for Industry (FMfI 2024) and ISMI (2024)（Universiti Teknologi Malaysia, マレーシア）. ポスター発表.
+        </li>
+        <li>
+          <span class="year">2025.07</span>
+          Shuhei Muroya, Kei Hirose. Optimizing Hyperparameters of the Glmnet Function Using Machine Learning for Accurate Solution.
+          The Third Joint SIAM/CAIMS Annual Meetings (AN25)（Palais des congrès de Montréal, カナダ）. ポスター発表.
+        </li>
+        <li>
+          <span class="year">2024.09</span>
+          室屋 秀平, 廣瀬 慧. glmnet での精確な解を高速に求めるための設定値選択の自動化.
+          2024年度統計関連学会連合大会（東京理科大学, 東京）. 口頭発表.
+        </li>
+        <li>
+          <span class="year">2024.03</span>
+          室屋 秀平, 廣瀬 慧. glmnet での精確な解を高速に求めるための設定値.
+          第18回日本統計学会春季集会（成城大学, 東京）. ポスター発表.
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>
+        Email：<span class="email">muroya.shuhei.697[at]s.kyushu-u.ac.jp</span>
+        <br />
+        <span class="note">※ 迷惑メール対策のため [at] を @ に置き換えてください。</span>
+        <br /><br />
+        所属：九州大学大学院 マス・フォア・イノベーション連係学府
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Shuhei Muroya. Built with HTML/CSS, hosted on GitHub Pages.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
