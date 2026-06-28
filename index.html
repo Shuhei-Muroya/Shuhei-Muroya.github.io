@@ -25,8 +25,8 @@
     <!-- ===== Hero ===== -->
     <section class="hero">
       <div class="hero-photo">
-        <!-- 顔写真を入れる場合は images/profile.jpg を置き換えてください -->
-        <img src="images/profile.jpg" alt="プロフィール写真" onerror="this.style.display='none'" />
+        <!-- 仮のアバター(images/profile.svg)を表示中。顔写真を入れる場合は images/profile.jpg を置き、下の src を images/profile.jpg に変更してください -->
+        <img src="images/profile.svg" alt="プロフィール写真" onerror="this.style.display='none'" />
         <div class="hero-photo-placeholder">PHOTO</div>
       </div>
       <div class="hero-text">
@@ -62,7 +62,8 @@
       <h3>Skills</h3>
       <ul class="plain-list">
         <li>数理統計学、機械学習（スパース推定・ベイズ最適化・ニューラルネットワーク）に関する知識</li>
-        <li>R・Python を用いた統計手法／機械学習手法の実装</li>
+        <li><strong>Python</strong>：機械学習手法の実装（NN, LSTM, ベイズ最適化, PINNs）</li>
+        <li><strong>R</strong>：回帰分析・スパース推定・データ可視化の実装、R パッケージの開発。アンケートデータ／欠測データ／材料データ／時系列データの解析</li>
       </ul>
     </section>
 
@@ -81,6 +82,14 @@
         <div class="card">
           <h3>パーシステントホモロジー × graphical lasso</h3>
           <p>位相的データ解析と graphical lasso を融合したグラフ構造推定。</p>
+        </div>
+        <div class="card">
+          <h3>PINNs</h3>
+          <p>物理情報を組み込んだニューラルネットワーク（Physics-Informed Neural Networks）。</p>
+        </div>
+        <div class="card">
+          <h3>BPINNs：パラメータの不確実性評価</h3>
+          <p>ベイズ的 PINNs によるパラメータ推定と、その不確実性の定量化。</p>
         </div>
       </div>
     </section>
@@ -168,8 +177,6 @@
         Email：<span class="email">muroya.shuhei.697[at]s.kyushu-u.ac.jp</span>
         <br />
         <span class="note">※ 迷惑メール対策のため [at] を @ に置き換えてください。</span>
-        <br /><br />
-        所属：九州大学大学院 マス・フォア・イノベーション連係学府
       </p>
     </section>
   </main>
