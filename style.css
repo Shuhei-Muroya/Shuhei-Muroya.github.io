@@ -69,30 +69,6 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   align-items: center;
   flex-wrap: wrap;
 }
-.hero-photo { position: relative; flex: 0 0 auto; }
-.hero-photo img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid var(--border);
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-.hero-photo-placeholder {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background: var(--bg-alt);
-  border: 2px dashed var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
-}
 .hero-text { flex: 1 1 320px; }
 .hero-text h1 { margin: 0 0 0.25rem; font-size: 1.9rem; line-height: 1.25; }
 .hero-en { font-size: 1rem; color: var(--text-muted); font-weight: 400; }
